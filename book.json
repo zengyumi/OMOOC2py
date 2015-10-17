@@ -1,9 +1,9 @@
 {
-"plugins": ["disqus"],
-“pluginsConfig”: {
-"disqus": {
- “shortName":” “zengyumi”
-  }
+"plugins":["disqus"],
+"pluginsConfig":{
+"disqus":{
+"shortName":"zengyumi"
+}
 }
 }
 
