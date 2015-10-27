@@ -11,6 +11,14 @@
    * [翻译文档](1sTry/翻译文档.md)
        * [modules](modules.md)
    * [笨方法学python](1sTry/笨方法学python.md)
+       * 习题 0: 准备工作
+       * 习题 1: 第一个程序
+       * 习题 2: 注释和井号
+       * 习题 3: 数字和数学计算
+       * 习题 4: 变量(variable)和命名
+       * 习题 5: 更多的变量和打印
+       * 习题 6: 字符串(string)和文本
+       * 习题 7: 更多打印
    * [每周任务](1sTry/每周任务.md)
        * [Week 1](1sTry/week_1.md)
 * [迭代作品](2nDev/README.md)
