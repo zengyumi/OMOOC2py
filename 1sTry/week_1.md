@@ -1,6 +1,20 @@
-# Week 1
+# Week 1  交互 101
 
-## 交互 101-脚本调用
+## 任务内容
+
+整体任务概述:
+
+完成一个极简交互式日记系统,需求如下:
+一次接收输入一行日记
+保存为本地文件
+再次运行系统时,能打印出过往的所有日记
+时限: 0wd4~1wd3
+发布: 发布到各自仓库的 _src/om2py0w/0wex1/ 目录中
+指标:
+包含软件使用说明书: README.md
+能令其它学员根据说明书,运行系统,完成所有功能
+
+### 交互 101-脚本调用
 首先,得有一个稳定的代码记录容器: 脚本
 
 以之前上传的 _src/om2py0w/0wex1/main.py 为例
@@ -13,7 +27,7 @@ BeginnersGuideChinese - Python Wiki
 6. Modules — Python 2.7.10 documentation
 Code Style — The Hitchhiker's Guide to Python
 
-## 交互 101-调用参数
+### 交互 101-调用参数
 
 然后, 脚本得能接收外部数据的输入
 
@@ -23,7 +37,7 @@ Code Style — The Hitchhiker's Guide to Python
 
 10. Brief Tour of the Standard Library — Python 2.7.10 documentation
 
-## 交互 101-输入中文
+### 交互 101-输入中文
 
 
 接着最常见的要求,脚本如何获得外部中文文本?
@@ -37,7 +51,7 @@ Code Style — The Hitchhiker's Guide to Python
 2. Using the Python Interpreter — Python 2.7.10 documentation
 docopt—language for description of command-line interfaces
 
-## 交互 101-持续交互
+### 交互 101-持续交互
 
 每次记录一行日志,都要调用一次脚本嘛!?(嫌麻烦不?)
 
@@ -49,7 +63,7 @@ docopt—language for description of command-line interfaces
 
 2. Built-in Functions — Python 2.7.10 documentation
 
-## 交互 101-输出为文件
+### 交互 101-输出为文件
 每次记录的日志如何变成一个本地文件,永久保存?
 
 先不管数据结构, 就原样保存到文件(比如txt格式的)中吧!
@@ -63,7 +77,7 @@ open() 2. Built-in Functions — Python 2.7.10 documentation
 5. Built-in Types — Python 2.7.10 documentation
 6. 
 
-## 交互 101-回读文本数据
+### 交互 101-回读文本数据
 
 那么,最后一个功能就能串联起来成为一个 mini 软件了!
 
