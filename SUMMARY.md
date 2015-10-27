@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [教学反转](0MOOC/README.md)
 * [基础旋进](1sTry/README.md)
-   * 翻译文档
+   * [翻译文档](1sTry/翻译文档.md)
        * [modules](modules.md)
    * 笨方法学python
 * [迭代作品](2nDev/README.md)
