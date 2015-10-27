@@ -1,7 +1,7 @@
 # Summary
 - [教学反转](0MOOC/README.md)
 - [基础旋进](1sTry/README.md)
-  - 翻译文档
+ - 翻译文档
 - [迭代作品](2nDev/README.md)
 - [人生首秀](3rDemo/README.md)
 - [代码 (_src)](_src/README.md)
