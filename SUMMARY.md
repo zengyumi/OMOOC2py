@@ -10,7 +10,7 @@
        * [modules](modules.md)
    * [笨方法学python](1sTry/笨方法学python.md)
    * [每周任务](1sTry/每周任务.md)
-       * Week 1
+       * [Week 1](1sTry/week_1.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
