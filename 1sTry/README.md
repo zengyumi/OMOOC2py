@@ -9,3 +9,6 @@
 
 安装disqus插件是参考的以下连接
 https://zoejane.gitbooks.io/zoe-py-tutorial/content/gitbook-comment.html
+
+
+# 翻译
