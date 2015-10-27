@@ -5,7 +5,7 @@
 * [基础旋进](1sTry/README.md)
    * [翻译文档](1sTry/翻译文档.md)
        * [modules](modules.md)
-   * 笨方法学python
+   * [笨方法学python](1sTry/笨方法学python.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
