@@ -75,3 +75,8 @@ Note that in general the practice of importing * from a module or package is fro
 
 要注意，一般来说从module或是压缩包里导入*是不赞同的，因为这经常会引起可读性很差的代码。但是，在interactive session里用来节省输入是没问题的。
 
+### Executing modules as scripts 像脚本一般的执行
+
+When you run a Python module with
+![](module 7.PNG)
+
