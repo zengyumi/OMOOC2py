@@ -58,7 +58,11 @@ There is a variant of the import statement that imports names from a module dire
 
 在导入说明里有个变量，
 
+![](module 5.PNG)
+
 
 This does not introduce the module name from which the imports are taken in the local symbol table (so in the example, fibo is not defined).
 There is even a variant to import all names that a module defines:
 这部份没有介绍module的名字，
+
+![](module 6.PNG)
