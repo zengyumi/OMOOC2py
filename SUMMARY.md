@@ -18,7 +18,7 @@
        * 习题 4: 变量(variable)和命名
        * [习题 5: 更多的变量和打印](1sTry/习题 5.md)
        * 习题 6: 字符串(string)和文本
-       * 习题 7: 更多打印
+       * [习题 7: 更多打印](1sTry/习题 7.md)
    * [每周任务](1sTry/每周任务.md)
        * [Week 1](1sTry/week_1.md)
 * [迭代作品](2nDev/README.md)
