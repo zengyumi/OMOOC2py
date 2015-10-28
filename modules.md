@@ -66,3 +66,12 @@ There is even a variant to import all names that a module defines:
 这部份没有介绍module的名字，
 
 ![](module 6.PNG)
+
+This imports all names except those beginning with an underscore (_).
+
+这步导入了所有的名字，除了那些以下划线开头的部份。
+
+Note that in general the practice of importing * from a module or package is frowned upon, since it often causes poorly readable code. However, it is okay to use it to save typing in interactive sessions.
+
+要注意，一般来说从module或是压缩包里导入*是不赞同的，因为这经常会引起可读性很差的代码。但是，在interactive session里用来节省输入是没问题的。
+
