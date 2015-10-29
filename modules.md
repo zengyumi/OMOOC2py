@@ -113,4 +113,6 @@ When a module named spam is imported, the interpreter first searches for a built
 •the installation-dependent default.
 
 After initialization, Python programs can modify sys.path. The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path. This means that scripts in that directory will be loaded instead of modules of the same name in the library directory. This is an error unless the replacement is intended. See section Standard Modules for more information.
+
+初始化后，python可以编辑sys.path。包含了正在运行script的目录会在一开始搜索路径的时候被取代。
    
