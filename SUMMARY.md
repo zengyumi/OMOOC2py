@@ -7,7 +7,7 @@
        * Google
        * VPN
        * 5W1H
-       * English
+       * [English](english.md)
    * [翻译文档](1sTry/翻译文档.md)
        * [modules](modules.md)
    * [笨方法学python](1sTry/笨方法学python.md)
