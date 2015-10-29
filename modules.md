@@ -80,3 +80,31 @@ Note that in general the practice of importing * from a module or package is fro
 When you run a Python module with
 ![](module 7.PNG)
 
+the code in the module will be executed, just as if you imported it, but with the __name__ set to "__main__". That means that by adding this code at the end of your module:
+
+module里的代码将会被执行，just as if you imported it, but with the  _name_ set to "_main_". 这意味着说在你的module后加上这行代码:
+
+```if _name_ == "_main_":  
+   import sys  
+   fib(int(sys.argv[1]))```
+   
+   you can make the file usable as a script as well as an importable module, because the code that parses the command line only runs if the module is executed as the “main” file:
+   
+   你可以让文件变得不可用，因为。。。。
+   
+  ``` $ python fibo.py 50  
+   1 1 2 3 5 8 13 21 34 ``` 
+   
+   If the module is imported, the code is not run:
+   >>> import fibo
+   >>>
+   
+   This is often used either to provide a convenient user interface to a module, or for testing purposes (running the module as a script executes a test suite).
+   这常被用来给使用都提供方便，或是测目的（像script一样执行module会引发测试suite）.
+   
+### The Module Search Path
+
+When a module named spam is imported, the interpreter first searches for a built-in module with that name. If not found, it then searches for a file named spam.py in a list of directories given by the variable sys.path. sys.path is initialized from these locations:
+
+当一个名中spam的module导入的时候，翻译器首先会在内置module里进行搜索。如果没有找到，
+   
