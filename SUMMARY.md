@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [教学反转](0MOOC/README.md)
 * [基础旋进](1sTry/README.md)
-   * 基础
+   * [基础](1sTry/基础.md)
        * Google
        * VPN
        * 5W1H
