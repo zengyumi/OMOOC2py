@@ -106,5 +106,11 @@ module里的代码将会被执行，just as if you imported it, but with the  _n
 
 When a module named spam is imported, the interpreter first searches for a built-in module with that name. If not found, it then searches for a file named spam.py in a list of directories given by the variable sys.path. sys.path is initialized from these locations:
 
-当一个名中spam的module导入的时候，翻译器首先会在内置module里进行搜索。如果没有找到，
+当一个名中spam的module导入的时候，翻译器首先会在内置module里进行搜索。如果没有找到，然后才会去变量sys.path给出的目录里找名叫spam.py的文件。sys.path是从这些地方被初始化的：
+
+•the directory containing the input script (or the current directory).
+•PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).
+•the installation-dependent default.
+
+After initialization, Python programs can modify sys.path. The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path. This means that scripts in that directory will be loaded instead of modules of the same name in the library directory. This is an error unless the replacement is intended. See section Standard Modules for more information.
    
