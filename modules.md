@@ -114,4 +114,7 @@ When a module named spam is imported, the interpreter first searches for a built
 
 After initialization, Python programs can modify sys.path. The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path. This means that scripts in that directory will be loaded instead of modules of the same name in the library directory. This is an error unless the replacement is intended. See section Standard Modules for more information.
 
-初始化后，python可以编辑sys.path。包含了正在运行script的目录会在一开始搜索路径的时候被取代。这也就是说，在那个目录下的script将会被装载，以替代在目录里相同名字的module.这种说明出错了，除非这种代替结果是你想要的。查看Module部份以得到更多信息。
+初始化后，python可以编辑sys.path。包含了正在运行script的目录会在一开始搜索路径的时候被取代。这也就是说，在那个目录下的script将会被装载，以替代在目录里相同名字的module.这种说明出错了，除非这种代替结果是你想要的。查看Module部份以得到更多信息。    
+
+### “Compiled” Python files
+As an important speed-up of the start-up time for short programs that use a lot of standard modules, if a file called spam.pyc exists in the directory where spam.py is found, this is assumed to contain an already-“byte-compiled” version of the module spam. The modification time of the version of spam.py used to create spam.pyc is recorded in spam.pyc, and the .pyc file is ignored if these don’t match.
