@@ -118,3 +118,6 @@ After initialization, Python programs can modify sys.path. The directory contain
 
 ### “Compiled” Python files
 As an important speed-up of the start-up time for short programs that use a lot of standard modules, if a file called spam.pyc exists in the directory where spam.py is found, this is assumed to contain an already-“byte-compiled” version of the module spam. The modification time of the version of spam.py used to create spam.pyc is recorded in spam.pyc, and the .pyc file is ignored if these don’t match.
+
+
+
